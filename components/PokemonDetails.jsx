@@ -19,19 +19,19 @@ const PokemonDetails = () => {
           <div className="rounded-lg bg-white w-[358px] h-[246px] flex justify-center">
             <ul className="grid items-center grid-cols-2 gap-x-28">
               <li>
-                <h1 className="text-[20px] font-[500]">Height</h1>{" "}
+                <h1 className="text-[20px] font-[500]">Height</h1>
                 <p className="text-[16px]">2'04"</p>
               </li>
               <li>
-                <h1 className="text-[20px] font-[500]">Category</h1>{" "}
+                <h1 className="text-[20px] font-[500]">Category</h1>
                 <p className="text-[16px]">Seed</p>
               </li>
               <li>
-                <h1 className="text-[20px] font-[500]">Height</h1>{" "}
+                <h1 className="text-[20px] font-[500]">Height</h1>
                 <p className="text-[16px]">2'04"</p>
               </li>
               <li>
-                <h1 className="text-[20px] font-[500]">Height</h1>{" "}
+                <h1 className="text-[20px] font-[500]">Height</h1>
                 <p className="text-[16px]">2'04"</p>
               </li>
             </ul>

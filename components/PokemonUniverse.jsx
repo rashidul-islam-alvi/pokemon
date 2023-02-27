@@ -7,7 +7,7 @@ const PokemonUniverse = () => (
   <>
     <div className="flex h-full">
       <div className="">
-        <Image src={Left} className="h-full" />
+        <Image src={Left} alt="Side Image" className="h-full" />
       </div>
       <div className="flex flex-col items-center w-screen">
         <div className="flex mt-10 flex-3">
@@ -20,7 +20,7 @@ const PokemonUniverse = () => (
         </div>
       </div>
       <div>
-        <Image src={Left} className="h-full" />
+        <Image src={Left} alt="Side Image" className="h-full" />
       </div>
     </div>
   </>

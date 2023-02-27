@@ -15,6 +15,7 @@ const PokemonCard = ({ list }) => {
             src={list.img}
             width={180}
             className="transition duration-700 hover:scale-110"
+            alt="image"
           />
         </div>
       </div>
