@@ -10,11 +10,11 @@ const Pokemon = () => {
   return (
     <div className="flex justify-between h-screen">
       <div className="flex-2">
-        <Image src={Left} className="h-full " />
+        <Image src={Left} className="h-full " alt="image" />
       </div>
       <div className="flex flex-col items-center flex-1">
         <div className="mt-10">
-          <Image src={Logo} />
+          <Image src={Logo} alt="image" />
         </div>
         <div className="w-full h-full ">
           <PokemonDetails />
@@ -29,7 +29,7 @@ const Pokemon = () => {
         </div>
       </div>
       <div className="flex-2">
-        <Image src={Left} className="h-full" />
+        <Image src={Left} className="h-full" alt="image" />
       </div>
     </div>
   );

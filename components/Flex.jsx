@@ -37,7 +37,7 @@ export const Flex = () => {
                   semper sed duis feugiat mi.
                 </div>
                 <div>
-                  <Image src={fourth} />
+                  <Image src={fourth} alt="image" />
                 </div>
               </div>
               <div className="w-[648px] h-[108px] mr-5 ">
@@ -54,10 +54,10 @@ export const Flex = () => {
             </div>
             <div>
               <div className="mb-10 w-[200px] h-[200px]">
-                <Image src={second} />
+                <Image src={second} alt="image" />
               </div>
               <div className=" w-[200px] h-[200px]">
-                <Image src={third} />
+                <Image src={third} alt="image" />
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@ export const Flex = () => {
             amet et. Nisl urna non fames felis leo. Vitae pulvinar sed viverra .
           </div>
           <div className="flex mt-5 h-[200]">
-            <Image src={fifth} width={200} height={200} />
+            <Image src={fifth} width={200} height={200} alt="image" />
             <div className="ml-5 ">
               Lorem ipsum dolor sit amet consectetur. Turpis integer massa
               consectetur sed enim quis viverra. Vestibulum eu nibh dolor
@@ -84,7 +84,7 @@ export const Flex = () => {
             </div>
           </div>
           <div className="flex my-5">
-            <Image src={first} width={200} height={200} />
+            <Image src={first} width={200} height={200} alt="image" />
             <div className="ml-5">
               Lorem ipsum dolor sit amet consectetur. Tincidunt at cras tortor
               non volutpat quisque facilisis. Ultricies consequat sed vitae ac.

@@ -44,6 +44,7 @@ const PokemonDetails = () => {
           src={Ditto}
           width={400}
           className="transition duration-700 hover:scale-125"
+          alt="image"
         />
       </div>
 

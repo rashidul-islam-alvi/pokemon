@@ -22,7 +22,7 @@ export default function Home() {
     <>
       <div className="h-screen bg-[url('../assets/Background.png')]">
         <div className="flex flex-col items-center justify-between h-screen py-12">
-          <Image src={Logo} />
+          <Image src={Logo} alt="logo" />
           <PokemonLists lists={data} />
         </div>
       </div>
